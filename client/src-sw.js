@@ -27,11 +27,9 @@ warmStrategyCache({
 registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 
 // TODO: Implement asset caching
-registerRoute(); //(self.__WB_MANIFEST);???
+//registerRoute();  Does it need to pass a parameter? (self.__WB_MANIFEST) ???
 
 // Register route for caching dynamic CSS and JS files.
-// i.e. bootstrap, jQuery, ...
-// The StaleWhileRevalidate strategy serves content from cache AND loads it from source if needed.
 registerRoute(
   ({ request }) => {
     console.log(request);
@@ -53,7 +51,7 @@ registerRoute(
 );
 
 // Register route for caching dynamic images
-// The cache first strategy is often the best choice for images because it saves bandwidth and improves performance.
+
 registerRoute(
   ({ request }) => request.destination === 'image',
   new CacheFirst({
