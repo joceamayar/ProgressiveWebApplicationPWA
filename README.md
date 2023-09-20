@@ -19,7 +19,8 @@ Once installed on your device, you can open TextMate Pro and take notes without 
 
 <img width="1199" alt="Screenshot 2023-09-20 at 12 20 20 PM" src="https://github.com/joceamayar/ProgressiveWebApplicationPWA/assets/136951180/7ed5ef51-8c1b-4fa3-ac9c-5dfd917d0a93">
 
-https://github.com/joceamayar/ProgressiveWebApplicationPWA/assets/136951180/6cc50ac8-8506-4918-9011-48be8f59fc45
+<img width="1578" alt="Screenshot 2023-09-20 at 12 18 00 PM" src="https://github.com/joceamayar/ProgressiveWebApplicationPWA/assets/136951180/d0bf88dc-0e5d-4872-8db1-bceb3d14757b">
+
 
 
 
