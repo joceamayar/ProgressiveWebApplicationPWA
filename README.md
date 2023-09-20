@@ -17,6 +17,14 @@ Open the Website https://jocelin-pwa-ac06e343adca.herokuapp.com/ on your web bro
 Once installed on your device, you can open TextMate Pro and take notes without needing to be connected to a browser or the internet. Your notes are saved locally and can be accessed anytime, making it an incredibly versatile and reliable solution for note-taking, coding, or any other text editing needs.
 
 
+<img width="1199" alt="Screenshot 2023-09-20 at 12 20 20 PM" src="https://github.com/joceamayar/ProgressiveWebApplicationPWA/assets/136951180/7ed5ef51-8c1b-4fa3-ac9c-5dfd917d0a93">
+
+<img width="1578" alt="Screenshot 2023-09-20 at 12 18 00 PM" src="https://github.com/joceamayar/ProgressiveWebApplicationPWA/assets/136951180/f25581b2-0b5c-4e8e-8f0a-542994f4e832">
+
+
+
+
+
 ## License
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
