@@ -22,21 +22,21 @@ export const getDb = async () => {
   const todosDb = await openDB('jate', 1);
   const tx = todosDb.transaction('jate', 'readonly');
   const store = tx.objectStore('jate');
-  const request = store.getAll();
+  const request = store.get(1);
   const result = await request;
-  console.log('result.value', result);
-  return result;
+  console.log('result.page', result);
+  return result.page;
 };
 
 // TODO: Add logic to a method that accepts some content and adds it to the database
-export const putDb = async (id, content) => {
+export const putDb = async (content) => {
   console.error('putDb not implemented');
   const todosDb = await openDB('jate', 1);
   const tx = todosDb.transaction('jate', 'readwrite');
   const store = tx.objectStore('jate');
-  const request = store.put({ id: id, todo: content });
+  const request = store.put({ id: 1, page: content });//updating 
   const result = await request;
-  console.log('Data saved to the database', result);
+  console.log('Data saved to the database', result.page);
 };
 
 initdb();
