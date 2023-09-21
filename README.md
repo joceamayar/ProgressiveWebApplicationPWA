@@ -1,6 +1,8 @@
 [apache]
 # Progressive Web Application PWA - Text editor 
 
+https://github.com/joceamayar/ProgressiveWebApplicationPWA
+
 ## Project Description
 To explore and master the technology required for optimizing performance and capabilities, a Progressive Web App (PWA) text editor was developed. The Web App Manifest, also known as "Manifesto," furnishes crucial metadata that influences the app's user interface and its ability to be installed. Service Workers handle network requests, thereby enabling the app to function offline. Lighthouse is used to evaluate the app's overall quality. The "npm run build" command is employed to compile the source code, preparing it for deployment. An object-oriented database is used for storing intricate data structures. Webpack is responsible for bundling various assets, including the Manifest and Service Worker, to enhance performance. Finally, the 'register' method is used to install the service worker, which enables the app's offline functionalities. Collectively, these tools significantly contribute to the creation of the text editor. 
 
